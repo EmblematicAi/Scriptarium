@@ -1,3 +1,8 @@
+cd /opt/ComfyUI
+git clone https://github.com/ltdrdata/ComfyUI-Manager.git /opt/ComfyUI/custom_nodes/ComfyUI-Manager
+pip install -r requirements.txt
+cd /opt/ComfyUI/custom_nodes/ComfyUI-Manager
+pip install -r requirements.txt
 cd /opt/ComfyUI/custom_nodes
 git clone https://github.com/theUpsider/ComfyUI-Logic --recursive
 cd /opt/ComfyUI/custom_nodes
